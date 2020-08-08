@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "warunsitex",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Just a simple portfolio website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Warun Singhal <warunsinx@gmail.com>",
   "dependencies": {
     "gatsby": "^2.24.26",
     "gatsby-image": "^2.4.14",
@@ -22,9 +22,9 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
+    "warunsinx"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
