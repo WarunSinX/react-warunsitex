@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Nav />
-      <div>{children}</div>
+      <div className="bg-black text-white">{children}</div>
     </>
   )
 }
