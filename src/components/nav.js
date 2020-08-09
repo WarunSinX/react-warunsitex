@@ -1,27 +1,40 @@
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Nav = () => {
   return (
-    <div className="py-5 px-8 bg-gray-900">
+    <div className="py-5 px-8 bg-x">
       <nav className="flex justify-between items-center">
-        <a href="#" className="text-orange-400 text-xl">
+        <p
+          onClick={() => scrollTo("#top")}
+          className="text-orange-400 text-xl cursor-pointer"
+        >
           WARUNSITEX
-        </a>
+        </p>
         <ul className="flex">
           <li>
-            <a href="#" className="text-gray-400 hover:text-gray-300">
-              ABOUT
-            </a>
-          </li>
-          <li className="mx-8">
-            <a href="#" className="text-gray-400 hover:text-gray-300">
-              SKILL
-            </a>
+            <p
+              onClick={() => scrollTo("#about")}
+              className="text-gray-500 hover:text-gray-400 cursor-pointer"
+            >
+              About
+            </p>
           </li>
           <li>
-            <a href="#" className="text-gray-400 hover:text-gray-300">
-              CONTACT
-            </a>
+            <p
+              // onClick={() => scrollTo("#")}
+              className="text-gray-500 hover:text-gray-400 cursor-pointer mx-3"
+            >
+              Skill
+            </p>
+          </li>
+          <li>
+            <p
+              // onClick={() => scrollTo("#")}
+              className="text-gray-500 hover:text-gray-400 cursor-pointer"
+            >
+              Contact
+            </p>
           </li>
         </ul>
       </nav>

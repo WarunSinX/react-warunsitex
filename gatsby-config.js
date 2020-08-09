@@ -5,6 +5,7 @@ module.exports = {
         author: `warunsinx`
     },
     plugins: [
+        `gatsby-plugin-smoothscroll`,
         `gatsby-plugin-postcss`,
         `gatsby-plugin-react-helmet`,
         {
