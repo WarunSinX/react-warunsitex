@@ -8,7 +8,7 @@ import About from "../components/homies/about"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="container mx-auto">
+    <div className="mx-auto px-16">
       <Hero />
       <About />
     </div>

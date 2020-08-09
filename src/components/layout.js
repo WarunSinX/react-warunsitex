@@ -8,8 +8,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <body className="h-screen bg-gray-900 text-gray-500" />
+        <body className="h-screen bg-x text-gray-400" />
       </Helmet>
+      <div id="top" />
       <Nav />
       <div>{children}</div>
     </>
