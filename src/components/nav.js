@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Nav = () => {
-  const [navClass, setNavClass] = useState("")
+  const [navClass, setNavClass] = useState("mt-5")
   const [navTop, setNavTop] = useState("0")
   let prevScrollpos = window.pageYOffset
   let currentScrollPos = window.pageYOffset
@@ -17,12 +17,12 @@ const Nav = () => {
     }
     if (currentScrollPos >= 10) {
       setNavClass("shadow-xl")
-    } else setNavClass("")
+    } else setNavClass("mt-5")
     prevScrollpos = currentScrollPos
   }
   return (
     <div
-      className={`py-5 px-8 bg-x fixed w-full ${navClass}`}
+      className={`py-5 px-8 sm:px-16 bg-x fixed w-full ${navClass}`}
       style={{ top: navTop }}
       id="navbar"
     >

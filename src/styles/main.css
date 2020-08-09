@@ -8,5 +8,5 @@
 
 #navbar {
   top: 0;
-  transition: top 0.3s;
+  transition: top 0.33s, margin 0.1s ease-in-out;
 }
