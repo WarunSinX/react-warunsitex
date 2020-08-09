@@ -5,3 +5,8 @@
 .bg-x {
   background-color: #121117;
 }
+
+#navbar {
+  top: 0;
+  transition: top 0.3s;
+}
