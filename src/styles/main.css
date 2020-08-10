@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
 .bg-x {
   background-color: #121117;
 }
