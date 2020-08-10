@@ -29,7 +29,7 @@ const Nav = () => {
       <nav className="flex justify-between items-center">
         <p
           onClick={() => scrollTo("#top")}
-          className="text-orange-400 text-xl cursor-pointer"
+          className="text-orange-500 text-xl cursor-pointer"
         >
           WARUNSITEX
         </p>
