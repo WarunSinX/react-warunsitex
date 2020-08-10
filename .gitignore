@@ -71,3 +71,6 @@ yarn-error.log
 # Dev config files
 .prettierignore
 .prettierrc
+
+#Profile Image
+src/images/pro.jpg
