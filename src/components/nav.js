@@ -36,7 +36,7 @@ const Nav = () => {
         <ul className="flex">
           <li>
             <p
-              onClick={() => scrollTo("#about")}
+              // onClick={() => scrollTo("#")}
               className="text-gray-500 hover:text-gray-400 cursor-pointer"
             >
               About
