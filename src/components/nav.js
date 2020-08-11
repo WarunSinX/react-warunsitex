@@ -39,7 +39,7 @@ const Nav = () => {
               // onClick={() => scrollTo("#")}
               className="text-gray-500 hover:text-gray-400 cursor-pointer"
             >
-              About
+              <span className="text-orange-400">00 </span>About
             </p>
           </li>
           <li>
@@ -47,7 +47,7 @@ const Nav = () => {
               // onClick={() => scrollTo("#")}
               className="text-gray-500 hover:text-gray-400 cursor-pointer mx-3"
             >
-              Skill
+              <span className="text-orange-400">01 </span>Skill
             </p>
           </li>
           <li>
@@ -55,7 +55,7 @@ const Nav = () => {
               // onClick={() => scrollTo("#")}
               className="text-gray-500 hover:text-gray-400 cursor-pointer"
             >
-              Contact
+              <span className="text-orange-400">10 </span>Contact
             </p>
           </li>
         </ul>
