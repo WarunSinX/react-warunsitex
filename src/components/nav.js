@@ -22,7 +22,7 @@ const Nav = () => {
   }
   return (
     <div
-      className={`py-5 px-8 sm:px-16 bg-x fixed w-full ${navClass}`}
+      className={`py-5 px-8 sm:px-16 bg-primary fixed w-full ${navClass}`}
       style={{ top: navTop }}
       id="navbar"
     >
