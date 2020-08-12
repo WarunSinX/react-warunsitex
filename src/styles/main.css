@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Roboto Mono", monospace;
+.theme-dark {
+  --primary: #121117;
+  --secondary: #12181b;
+  --text-main: #eaeaea;
+  --text-secondary: #b8b8b9;
+  --accent: #e67e22;
 }
 
-.bg-x {
-  background-color: #121117;
+body {
+  font-family: "Roboto Mono", monospace;
 }
 
 #navbar {

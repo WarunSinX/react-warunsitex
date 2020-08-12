@@ -29,7 +29,7 @@ const Nav = () => {
       <nav className="flex justify-between items-center">
         <p
           onClick={() => scrollTo("#top")}
-          className="text-orange-500 text-xl cursor-pointer"
+          className="text-accent text-xl cursor-pointer"
         >
           WARUNSITEX
         </p>
@@ -37,25 +37,25 @@ const Nav = () => {
           <li>
             <p
               // onClick={() => scrollTo("#")}
-              className="text-gray-500 hover:text-gray-400 cursor-pointer"
+              className="text-secondary-text hover:text-main-text cursor-pointer"
             >
-              <span className="text-orange-400">00 </span>About
+              <span className="text-accent">00 </span>About
             </p>
           </li>
           <li>
             <p
               // onClick={() => scrollTo("#")}
-              className="text-gray-500 hover:text-gray-400 cursor-pointer mx-3"
+              className="text-secondary-text hover:text-main-text cursor-pointer mx-3"
             >
-              <span className="text-orange-400">01 </span>Skill
+              <span className="text-accent">01 </span>Skill
             </p>
           </li>
           <li>
             <p
               // onClick={() => scrollTo("#")}
-              className="text-gray-500 hover:text-gray-400 cursor-pointer"
+              className="text-secondary-text hover:text-main-text cursor-pointer"
             >
-              <span className="text-orange-400">10 </span>Contact
+              <span className="text-accent">10 </span>Contact
             </p>
           </li>
         </ul>
