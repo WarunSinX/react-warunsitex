@@ -12,7 +12,15 @@ const Layout = ({ children }) => {
       </Helmet>
       <div id="top" />
       <Nav />
-      <div>{children}</div>
+      <div className="flex">
+        <div className="flex-auto relative">
+          <div className="vl border-l-2 border-orange-600 absolute bottom-0 h-40" />
+        </div>
+        <div className="flex-auto">{children}</div>
+        <div className="flex-auto relative">
+          <div className="vl border-l-2 border-orange-600 absolute bottom-0 h-40" />
+        </div>
+      </div>
     </>
   )
 }

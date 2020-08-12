@@ -13,4 +13,10 @@ body {
 #navbar {
   top: 0;
   transition: top 0.33s, margin 0.1s ease-in-out;
+  z-index: 1;
+}
+
+.vl {
+  left: 50%;
+  margin-left: -2px;
 }
