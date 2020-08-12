@@ -9,14 +9,16 @@ const Hero = () => {
         <p className="text-6xl text-secondary-text leading-none">
           I build things with Code
         </p>
-        <p className="mt-16 text-secondary-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-          Soluta cupiditate corrupti unde maiores totam fuga,asperiores
-          mollitia.
-          <br />
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae,
-          provident.
-        </p>
+        <div className="mt-16 text-secondary-text">
+          <p>
+            I'm a Full-Stack Web/App Developer hail from Phuket, Thailand
+            currently in
+            <br />
+            my second year of studies towards a bachelor degree in Digital
+            Engineering.
+            <br />I mainly use JavaScript and various web technologies.
+          </p>
+        </div>
         <button className="mt-16 rounded py-3 px-5 border border-accent">
           Explore More
         </button>
