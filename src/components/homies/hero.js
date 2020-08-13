@@ -6,8 +6,8 @@ const Hero = () => {
       <div className="tracking-tight">
         <p className="text-accent leading-none">Hello there, my name is</p>
         <p className="text-6xl text-main-text font-bold">Warun Singhal</p>
-        <p className="text-6xl text-secondary-text leading-none">
-          I build things with Code
+        <p className="text-6xl text-secondary-text leading-none let-space">
+          I converts coffee into code
         </p>
         <div className="mt-16 text-secondary-text">
           <p>

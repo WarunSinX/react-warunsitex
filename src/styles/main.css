@@ -18,3 +18,7 @@ body {
   transition: top 0.33s, margin 0.1s ease-in-out;
   z-index: 1;
 }
+
+.let-space {
+  letter-spacing: -0.11em;
+}
