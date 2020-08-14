@@ -36,7 +36,7 @@ const Nav = () => {
         <ul className="flex">
           <li>
             <p
-              // onClick={() => scrollTo("#")}
+              onClick={() => scrollTo("#about")}
               className="text-secondary-text hover:text-main-text cursor-pointer"
             >
               <span className="text-accent mr-1 text-sm">01</span>About
@@ -44,7 +44,7 @@ const Nav = () => {
           </li>
           <li>
             <p
-              // onClick={() => scrollTo("#")}
+              onClick={() => scrollTo("#thelist")}
               className="text-secondary-text hover:text-main-text cursor-pointer mx-8"
             >
               <span className="text-accent mr-1 text-sm">10</span>theList
@@ -52,7 +52,7 @@ const Nav = () => {
           </li>
           <li>
             <p
-              // onClick={() => scrollTo("#")}
+              onClick={() => scrollTo("#contact")}
               className="text-secondary-text hover:text-main-text cursor-pointer"
             >
               <span className="text-accent mr-1 text-sm">11</span>Contact
