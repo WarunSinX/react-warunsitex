@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <body className="h-screen theme-dark bg-primary text-main-text" />
+        <body className="theme-dark bg-primary text-main-text" />
       </Helmet>
       <div id="top" />
       <Nav />
