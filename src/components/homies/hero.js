@@ -2,7 +2,10 @@ import React from "react"
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex justify-center items-center">
+    <section
+      id="hero"
+      className="min-h-screen flex justify-center items-center"
+    >
       <div className="tracking-tight">
         <p className="text-accent leading-none">Hello there, my name is</p>
         <p className="text-6xl text-main-text font-bold">Warun Singhal</p>

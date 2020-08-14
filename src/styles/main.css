@@ -9,6 +9,17 @@
   --accent: #e67e22;
 }
 
+html {
+  scroll-snap-type: y proximity;
+}
+
+#about,
+#contact,
+#hero,
+#thelist {
+  scroll-snap-align: start;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
 }
