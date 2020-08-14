@@ -13,11 +13,11 @@ const Layout = ({ children }) => {
       <div id="top" />
       <Nav />
       <div className="flex">
-        <div className="flex-auto relative flex justify-center">
+        <div className="flex-none relative flex justify-center w-32">
           <div className="border-l-2 border-accent fixed bottom-0 h-40" />
         </div>
         <div className="flex-auto">{children}</div>
-        <div className="flex-auto relative flex justify-center">
+        <div className="flex-none relative flex justify-center w-32">
           <div className="border-l-2 border-accent fixed bottom-0 h-40" />
         </div>
       </div>
