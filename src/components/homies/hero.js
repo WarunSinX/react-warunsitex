@@ -3,7 +3,10 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Hero = () => {
   return (
-    <section id="hero" className="min-h-screen flex justify-center pt-40">
+    <section
+      id="hero"
+      className="min-h-screen flex justify-center items-center"
+    >
       <div className="tracking-tight">
         <p className="text-accent leading-none">Hello there, my name is</p>
         <p className="text-6xl text-main-text font-bold">Warun Singhal</p>
