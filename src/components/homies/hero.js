@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
         <button
-          className="mt-16 rounded py-3 px-5 border border-accent"
+          className="mt-16 rounded py-3 px-5 border border-accent outline-none"
           onClick={() => scrollTo("#about")}
         >
           Explore More
