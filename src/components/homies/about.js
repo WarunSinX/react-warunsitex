@@ -23,10 +23,24 @@ const About = () => {
         </div>
         <div>
           <div className="flex items-center">
-            <p className="text-accent">0001</p>
+            <p className="text-accent text-lg">0001</p>
             <div className="mx-5 border-t border-secondary-text w-full" />
-            <p className="text-main-text flex-none">About Me</p>
+
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="w-20"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              />
+            </svg>
             <div className="ml-5 border-t border-secondary-text w-full" />
+            <p className="ml-5 text-main-text flex-none text-lg">About Me</p>
           </div>
           <p className="text-secondary-text mt-5">
             Hello again ! I am Warun, a second year college student
@@ -42,8 +56,8 @@ const About = () => {
             <br />
             provide a performant user experiences.
           </p>
-          <div className="flex items-center mt-10">
-            <p className="text-main-text flex-none">Tech & Tools</p>
+          <div className="flex items-center mt-12">
+            <p className="text-main-text flex-none text-lg">Tech & Tools</p>
             <div className="mx-5 border-t border-secondary-text w-full" />
             <svg
               fill="none"
