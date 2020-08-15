@@ -29,7 +29,7 @@ const TheList = () => {
         </div>
         <p className="text-xl">
           Sorry, this section is still under development. <br />
-          Please comeback later..
+          <span className="text-secondary-text">Please comeback later..</span>
         </p>
       </div>
     </section>
