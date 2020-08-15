@@ -2,7 +2,7 @@ import React from "react"
 
 const ToolItem = ({ item }) => {
   return (
-    <div className="flex">
+    <div className="flex items-center">
       <svg
         fill="none"
         viewBox="0 0 24 24"
