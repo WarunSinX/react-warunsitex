@@ -16,7 +16,7 @@ const About = () => {
               className="rounded"
               src={proImg}
               alt="profileImage"
-              width="300"
+              width="320"
             />
             <div className="ml-2 mt-2 border-4 border-accent pro-frame rounded" />
           </div>
@@ -29,14 +29,18 @@ const About = () => {
             <div className="ml-5 border-t border-secondary-text w-full" />
           </div>
           <p className="text-secondary-text mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Impedit dolor beatae maiores? Nesciunt nihil recusandae
-            <br /> officia quos commodi fugiat quibusdam?
+            Hello again ! I am Warun, a second year college student
+            <br />
+            based in Phuket, Thailand. I used to work as a part time
+            <br /> freelancer since I was 15 years old.
           </p>
           <p className="text-secondary-text mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Impedit dolor beatae maiores? Nesciunt nihil recusandae
-            <br /> officia quos commodi fugiat quibusdam?
+            I am very passionate about technologies and programming
+            <br />
+            loved the intersection between code, business and design
+            <br /> My goal is to build a magnificent Digital Product that
+            <br />
+            provide a performant user experiences.
           </p>
           <div className="flex items-center mt-10">
             <p className="text-main-text flex-none">Tech & Tools</p>
@@ -56,7 +60,7 @@ const About = () => {
             </svg>
           </div>
           <div className="mt-5 flex justify-between">
-            <ToolItem item="HTML & CSS" />
+            <ToolItem item="HTML/CSS" />
             <ToolItem item="JavaScript" />
             <ToolItem item="React.js" />
             <ToolItem item="Node.js" />
@@ -70,9 +74,9 @@ const About = () => {
           </div>
           <div className="mt-5 flex justify-between">
             <ToolItem item="Java" />
-            <ToolItem item="C++" />
+            <ToolItem item="C/C++" />
             <ToolItem item="Python" />
-            <ToolItem item="C" />
+            <ToolItem item="SSH" />
             <ToolItem item="GraphQL" />
           </div>
         </div>
