@@ -15,3 +15,4 @@ Just a simple portfolio website of myself developed with ReactJs & GatsbyJS.
 - Add animation
 - Add theme switch
 - Start Home/theList-Section
+- Huge Code Refactoring
