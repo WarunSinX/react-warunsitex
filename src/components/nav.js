@@ -1,29 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Nav = () => {
-  const [navClass, setNavClass] = useState("mt-5")
-  const [navTop, setNavTop] = useState("0")
-  let prevScrollpos = window.pageYOffset
-  let currentScrollPos = window.pageYOffset
-  window.onscroll = function () {
-    currentScrollPos = window.pageYOffset
-    if (prevScrollpos > currentScrollPos) {
-      setNavTop("0")
-    } else {
-      if (currentScrollPos >= 80) {
-        setNavTop("-200px")
-      }
-    }
-    if (currentScrollPos >= 10) {
-      setNavClass("shadow-xl")
-    } else setNavClass("mt-5")
-    prevScrollpos = currentScrollPos
-  }
   return (
     <div
-      className={`py-5 px-8 sm:px-16 bg-primary fixed w-full ${navClass}`}
-      style={{ top: navTop }}
+      className="py-5 px-8 sm:px-16 bg-primary w-full fixed top-0"
       id="navbar"
     >
       <nav className="flex justify-between items-center">

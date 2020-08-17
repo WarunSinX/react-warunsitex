@@ -9,10 +9,6 @@
   --accent: #e67e22;
 }
 
-html {
-  scroll-snap-type: y proximity;
-}
-
 #about,
 #contact,
 #hero,
@@ -25,8 +21,6 @@ body {
 }
 
 #navbar {
-  top: 0;
-  transition: top 0.33s, margin 0.1s ease-in-out;
   z-index: 1;
 }
 
