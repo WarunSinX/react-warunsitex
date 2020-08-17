@@ -6,8 +6,8 @@ const Contact = () => {
       id="contact"
       className="min-h-screen flex justify-center items-center flex-col"
     >
-      <div className="flex items-center mt-20 w-1/4">
-        <p className="text-accent text-lg">0011</p>
+      <div className="flex items-center w-1/4" style={{ marginTop: "5.5rem" }}>
+        <p className="text-accent text-lg">0010</p>
         <div className="mx-5 border-t border-secondary-text w-full" />
         <p className="text-lg">Contact</p>
       </div>
