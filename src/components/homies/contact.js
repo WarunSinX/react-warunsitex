@@ -12,7 +12,7 @@ const Contact = () => {
         <p className="text-lg">Contact</p>
       </div>
       <p className="mt-5 text-3xl">What's Next? Say Hello!</p>
-      <p className="text-center text-secondary-text my-16">
+      <p className="text-center text-secondary-text my-12">
         I hope the above information is useful to you, Please feel free to
         <br /> contact me whether you have a question or just want to say hi
         <br />
