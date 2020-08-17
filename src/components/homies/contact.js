@@ -22,9 +22,10 @@ const Contact = () => {
       <p className="border border-accent p-3 rounded cursor-pointer">
         Get In Touch
       </p>
-      <p className="mb-10 mt-auto text-secondary-text">
-        <span className="text-2xl">&copy;</span> Crafted with love and coffee by
-        Warun S.
+      <p className="mb-10 mt-auto text-secondary-text text-center text-sm">
+        <span className="text-xl">&copy;</span> 2020 All rights reserved.
+        <br />
+        Crafted with love and coffee by Warun S.
       </p>
     </section>
   )
