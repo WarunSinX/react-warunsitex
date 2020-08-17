@@ -81,7 +81,6 @@ const About = () => {
           </div>
           <div className="mt-5 flex justify-between">
             <ToolItem item="Vue.js" />
-
             <ToolItem item="Git" />
             <ToolItem item="Gatsby.js" />
             <ToolItem item="SSH" />
@@ -91,7 +90,6 @@ const About = () => {
             <ToolItem item="Java" />
             <ToolItem item="C/C++" />
             <ToolItem item="Python" />
-
             <ToolItem item="GraphQL" />
             <ToolItem item="ReactNative" />
           </div>
