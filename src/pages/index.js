@@ -5,7 +5,6 @@ import SEO from "../components/seo"
 
 import Hero from "../components/homies/hero"
 import About from "../components/homies/about"
-import TheList from "../components/homies/thelist"
 import Contact from "../components/homies/contact"
 
 const IndexPage = () => (
