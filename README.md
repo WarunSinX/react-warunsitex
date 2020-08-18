@@ -8,9 +8,8 @@ Just a simple portfolio website of myself developed with ReactJs & GatsbyJS.
 - GatsbyJs
 - TailwindCss
 
-## TodoList :
+## Todo List :
 
-- Home/Contact-Section
 - Make responsive
 - Add animation
 - Add theme switch
