@@ -10,9 +10,8 @@ const Layout = ({ children }) => {
       <Helmet>
         <body className="theme-dark bg-primary text-main-text" />
       </Helmet>
-
+      <Nav />
       <div className="h-screen snap-con">
-        <Nav />
         <div className="flex">
           <div className="flex-none relative flex justify-center w-32">
             <div className="border-l-2 border-accent fixed bottom-0 h-40" />
