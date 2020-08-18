@@ -9,19 +9,19 @@
   --accent: #e67e22;
 }
 
+.snap-con {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
 #about,
 #contact,
-#hero,
-#thelist {
+#hero {
   scroll-snap-align: start;
 }
 
 body {
   font-family: "Roboto Mono", monospace;
-}
-
-#navbar {
-  z-index: 1;
 }
 
 .mod-let-space {
@@ -32,7 +32,7 @@ body {
   position: absolute;
   left: 15px;
   top: 15px;
-  z-index: -2;
+  z-index: -1;
   height: 320px;
   width: 320px;
 }

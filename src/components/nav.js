@@ -3,13 +3,10 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Nav = () => {
   return (
-    <div
-      className="py-5 px-8 sm:px-16 bg-primary w-full fixed top-0"
-      id="navbar"
-    >
+    <div className="py-5 px-8 sm:px-16 bg-primary w-full fixed top-0">
       <nav className="flex justify-between items-center">
         <p
-          onClick={() => scrollTo("#top")}
+          onClick={() => scrollTo("#hero")}
           className="text-accent text-xl cursor-pointer"
         >
           WARUNSITEX
