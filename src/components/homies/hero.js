@@ -11,7 +11,7 @@ const Hero = () => {
         <p className="text-accent leading-none">Hello there, my name is</p>
         <p className="text-6xl text-main-text font-bold">Warun Singhal</p>
         <p className="text-6xl text-secondary-text leading-none mod-let-space">
-          I converts coffee into code
+          I convert coffee into code
         </p>
         <div className="mt-16 text-secondary-text">
           <p>
