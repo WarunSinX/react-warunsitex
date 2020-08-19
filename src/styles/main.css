@@ -36,3 +36,8 @@ body {
   height: 320px;
   width: 320px;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
