@@ -5,6 +5,10 @@ module.exports = {
     author: `warunsinx`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: { threshold: 1, once: true },
+    },
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
