@@ -12,6 +12,17 @@
 .snap-con {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.snap-con::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
 }
 
 #about,
@@ -35,9 +46,4 @@ body {
   z-index: -1;
   height: 320px;
   width: 320px;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
 }
