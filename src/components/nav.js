@@ -4,21 +4,25 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 const Nav = () => {
   return (
     <div
-      className="py-5 px-8 sm:px-16 bg-primary w-full fixed top-0"
+      className="py-5 px-8 sm:px-16 bg-primary w-full fixed top-0 nav-test"
       style={{ zIndex: "69" }}
     >
       <nav className="flex justify-between items-center">
-        <p
-          onClick={() => scrollTo("#hero")}
-          className="text-accent text-xl cursor-pointer"
+        <div
+          className="cursor-pointer"
+          onClick={() => {
+            scrollTo("#hero")
+          }}
         >
-          WARUNSITEX
-        </p>
+          <p className="text-xl text-accent">WarunSiteX</p>
+        </div>
         <ul className="flex">
           <li>
             <p
-              onClick={() => scrollTo("#about")}
-              className="text-secondary-text hover:text-main-text cursor-pointer mr-8"
+              onClick={() => {
+                scrollTo("#about")
+              }}
+              className="text-secondary-text cursor-pointer mr-8 hover:text-main-text"
             >
               <span className="text-accent mr-1 text-sm">01</span>About
             </p>
