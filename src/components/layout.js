@@ -12,11 +12,11 @@ const Layout = ({ children }) => {
       </Helmet>
       <Nav />
       <div className="flex">
-        <div className="md:flex flex-none relative justify-center w-32 hidden">
+        <div className="xl:flex flex-none relative justify-center w-32 hidden">
           <div className="border-l-2 border-accent fixed bottom-0 h-40" />
         </div>
         <div className="flex-auto">{children}</div>
-        <div className="md:flex flex-none relative justify-center w-32 hidden">
+        <div className="xl:flex flex-none relative justify-center w-32 hidden">
           <div className="border-l-2 border-accent fixed bottom-0 h-40" />
         </div>
       </div>
