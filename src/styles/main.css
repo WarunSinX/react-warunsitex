@@ -26,6 +26,9 @@ body {
   left: 15px;
   top: 15px;
   z-index: -1;
-  height: 320px;
-  width: 320px;
+}
+
+.pro-size {
+  height: 18rem;
+  width: 18rem;
 }

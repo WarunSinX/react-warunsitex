@@ -7,41 +7,35 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center"
+      className="min-h-screen flex items-center justify-around py-20 flex-col w-full"
     >
-      <div className="flex justify-around items-center w-full">
-        <div>
+      <div className="flex items-center w-3/4 self-end pr-12">
+        <p className="text-accent text-lg">0001</p>
+        <div className="mx-5 border-t border-secondary-text w-full" />
+        <svg
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          className="w-32"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+          />
+        </svg>
+        <div className="ml-5 border-t border-secondary-text w-full" />
+        <p className="ml-5 text-main-text flex-none text-lg">About Me</p>
+      </div>
+      <div className="flex w-full flex-col-reverse lg:flex-row lg:justify-around lg:items-center">
+        <div className="mt-20 md:mt-0">
           <div className="relative">
-            <img
-              className="rounded"
-              src={proImg}
-              alt="profileImage"
-              width="320"
-            />
-            <div className="ml-2 mt-2 border-4 border-accent pro-frame rounded" />
+            <img className="rounded pro-size" src={proImg} alt="profileImage" />
+            <div className="ml-2 mt-2 border-4 border-accent pro-size pro-frame rounded" />
           </div>
         </div>
         <div>
-          <div className="flex items-center">
-            <p className="text-accent text-lg">0001</p>
-            <div className="mx-5 border-t border-secondary-text w-full" />
-
-            <svg
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              className="w-20"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-              />
-            </svg>
-            <div className="ml-5 border-t border-secondary-text w-full" />
-            <p className="ml-5 text-main-text flex-none text-lg">About Me</p>
-          </div>
           <p className="text-secondary-text mt-5">
             Hello again ! I am Warun, currently in my second year of <br />
             studies towards a bachelor degree in Digital Engineering <br />
