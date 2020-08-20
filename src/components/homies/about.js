@@ -43,13 +43,13 @@ const About = () => {
             <p className="ml-5 text-main-text flex-none text-lg">About Me</p>
           </div>
           <p className="text-secondary-text mt-5">
-            Hello again ! I am Warun, a second year college student
-            <br />
+            Hello again ! I am Warun, currently in my second year of <br />
+            studies towards a bachelor degree in Digital Engineering <br />
             based in Phuket, Thailand. I used to work as a part time
             <br /> freelancer since I was 15 years old.
           </p>
           <p className="text-secondary-text mt-5">
-            I am very passionate about technologies and programming
+            I am very passionate about technologies and programming,
             <br />
             loved the intersection between code, business and design
             <br /> My goal is to build a magnificent Digital Product that
