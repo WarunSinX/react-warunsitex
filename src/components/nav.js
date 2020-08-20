@@ -7,7 +7,7 @@ const Nav = () => {
       className="py-5 px-6 md:px-16 bg-primary w-full fixed top-0"
       style={{ zIndex: "69" }}
     >
-      <nav className="flex md:justify-between items-center">
+      <nav className="flex sm:justify-between items-center">
         <div
           className="cursor-pointer"
           onClick={() => {
@@ -24,7 +24,7 @@ const Nav = () => {
             </span>
           </p>
         </div>
-        <ul className="md:flex hidden">
+        <ul className="sm:flex hidden">
           <li>
             <p
               onClick={() => {

@@ -5,28 +5,27 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex justify-center items-center"
+      className="min-h-screen flex items-center justify-center px-6 sm:px-16 lg:px-0 py-24"
     >
-      <div className="tracking-tight ml-6">
-        <p className="text-base text-accent leading-none mb-1">
+      <div>
+        <p className="text-sm sm:text-base text-accent">
           Hello there, my name is
         </p>
-        <p className="text-6xl text-main-text font-bold">Warun Singhal</p>
-        <p className="text-6xl text-secondary-text leading-none mod-let-space">
-          I convert coffee
-          <br className="sm:hidden" /> into code
+        <p className="text-4xl md:text-5xl lg:text-6xl text-main-text font-bold leading-tight">
+          Warun Singhal
         </p>
-        <div className="text-base my-16 text-secondary-text">
+        <p className="text-4xl md:text-5xl lg:text-6xl text-secondary-text mod-let-space leading-none">
+          I convert coffee into code
+        </p>
+        <div className="text-sm sm:text-base my-16 text-secondary-text">
           <p>
-            I'm a 2nd year college student and also a Full-Stack Developer,
-            <br />
-            mainly use JavaScript and various web technologies.
-            <br />
-            Hail from Phuket, Thailand.
+            I'm a second year engineering student and also a Full-Stack Dev.{" "}
+            <br className="md:block hidden" />
+            Mainly use JavaScript and various web technologies ツ
           </p>
         </div>
         <button
-          className="rounded py-3 px-5 border border-accent outline-none text-xs sm:text-base"
+          className="rounded py-3 px-5 border border-accent outline-none"
           onClick={() => scrollTo("#about")}
         >
           Explore More
