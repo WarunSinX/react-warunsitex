@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@responsive {
+  .snap-con {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 .theme-dark {
   --primary: #121117;
   --text-main: #eaeaea;
   --text-secondary: #b8b8b9;
   --accent: #e67e22;
-}
-
-.snap-con {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 .snap-con::-webkit-scrollbar {
