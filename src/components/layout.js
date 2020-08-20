@@ -11,15 +11,13 @@ const Layout = ({ children }) => {
         <body className="theme-dark bg-primary text-main-text" />
       </Helmet>
       <Nav />
-      <div className="h-screen sm:snap-con">
-        <div className="flex">
-          <div className="sm:flex flex-none relative justify-center w-32 hidden">
-            <div className="border-l-2 border-accent fixed bottom-0 h-40" />
-          </div>
-          <div className="flex-auto">{children}</div>
-          <div className="sm:flex flex-none relative justify-center w-32 hidden">
-            <div className="border-l-2 border-accent fixed bottom-0 h-40" />
-          </div>
+      <div className="flex">
+        <div className="sm:flex flex-none relative justify-center w-32 hidden">
+          <div className="border-l-2 border-accent fixed bottom-0 h-40" />
+        </div>
+        <div className="flex-auto">{children}</div>
+        <div className="sm:flex flex-none relative justify-center w-32 hidden">
+          <div className="border-l-2 border-accent fixed bottom-0 h-40" />
         </div>
       </div>
     </>
