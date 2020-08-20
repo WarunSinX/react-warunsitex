@@ -5,26 +5,32 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex justify-center items-center"
+      className="min-h-screen flex sm:justify-center sm:items-center pt-40 sm:pt-0"
     >
-      <div className="tracking-tight">
-        <p className="text-accent leading-none">Hello there, my name is</p>
-        <p className="text-6xl text-main-text font-bold">Warun Singhal</p>
-        <p className="text-6xl text-secondary-text leading-none mod-let-space">
-          I convert coffee into code
+      <div className="tracking-tight ml-6">
+        <p className="sm:text-base text-xs text-accent leading-none mb-1">
+          Hello there, my name is
         </p>
-        <div className="mt-16 text-secondary-text">
+        <p className="sm:text-6xl text-3xl text-main-text font-bold">
+          Warun Singhal
+        </p>
+        <p className="sm:text-6xl text-3xl text-secondary-text leading-none mod-let-space">
+          I convert coffee
+          <br className="sm:hidden" /> into code
+        </p>
+        <div className="sm:text-base mod-font-size mt-16 text-secondary-text">
           <p>
-            I'm a Full-Stack Web/App Developer hail from Phuket, Thailand
-            currently in
-            <br />
-            my second year of studies towards a bachelor degree in Digital
-            Engineering.
-            <br />I mainly use JavaScript and various web technologies.
+            I'm a 2nd year college student and also
+            <br className="sm:hidden" />
+            a Full-Stack Developer,
+            <br className="hidden sm:block" /> mainly use{" "}
+            <br className="sm:hidden" />
+            JavaScript and various web technologies. <br />
+            Hail from Phuket, Thailand.
           </p>
         </div>
         <button
-          className="mt-16 rounded py-3 px-5 border border-accent outline-none"
+          className="mt-16 rounded py-3 px-5 border border-accent outline-none text-xs sm:text-base"
           onClick={() => scrollTo("#about")}
         >
           Explore More
