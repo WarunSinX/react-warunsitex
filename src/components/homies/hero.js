@@ -19,9 +19,9 @@ const Hero = () => {
         </p>
         <div className="text-sm sm:text-base my-16 text-secondary-text">
           <p>
-            I'm a second year engineering student and also a Full-Stack Dev.{" "}
+            I'm a second year engineering student and also a Full-Stack Dev,{" "}
             <br className="md:block hidden" />
-            Mainly use JavaScript and various web technologies ツ
+            Mainly use JavaScript and various web technologies シ
           </p>
         </div>
         <button
