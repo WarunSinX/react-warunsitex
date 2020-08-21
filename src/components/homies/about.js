@@ -11,12 +11,12 @@ const About = () => {
     >
       <div className="flex items-center w-3/4 self-center lg:self-end lg:pr-12">
         <p className="text-accent text-lg">0001</p>
-        <div className="mx-5 border-t border-secondary-text w-full" />
+        <div className="mx-5 border-t border-secondary-text w-full hidden sm:block" />
         <svg
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          className="w-32"
+          className="w-32 hidden sm:block"
         >
           <path
             strokeLinecap="round"
@@ -29,13 +29,17 @@ const About = () => {
         <p className="ml-5 text-main-text flex-none text-lg">About Me</p>
       </div>
       <div className="flex w-full flex-col-reverse items-center lg:flex-row lg:justify-around lg:items-center">
-        <div className="flex-none mt-20 lg:mt-0 lg:ml-auto pb-10 lg:pb-0">
+        <div className="flex-none mt-20 lg:mt-0 lg:ml-auto pb-10 lg:pb-0 sm:mr-0 mr-2">
           <div className="relative">
-            <img className="rounded pro-size" src={proImg} alt="profileImage" />
-            <div className="ml-2 mt-2 border-4 border-accent pro-size pro-frame rounded" />
+            <img
+              className="rounded pro-sm sm:pro-size"
+              src={proImg}
+              alt="profileImage"
+            />
+            <div className="ml-2 mt-2 border-4 border-accent pro-sm sm:pro-size pro-frame rounded" />
           </div>
         </div>
-        <div className="text-center text-sm sm:text-base lg:text-left lg:w-a px-24 lg:px-16 ml-auto">
+        <div className="text-center text-sm sm:text-base lg:text-left lg:w-a px-12 lg:px-16 ml-auto">
           <p className="text-secondary-text mt-5">
             Hello again ! I am Warun, currently in my second year of{" "}
             <br className="hidden" />
@@ -46,8 +50,8 @@ const About = () => {
           </p>
           <p className="text-secondary-text mt-5">
             I am very passionate about technologies and programming,
-            <br className="hidden" />
-            loved the intersection between code, business and design
+            <br className="hidden" /> loved the intersection between code,
+            business and design
             <br className="hidden" /> My goal is to build a magnificent Digital
             Product that
             <br className="hidden" />
@@ -61,7 +65,7 @@ const About = () => {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                className="w-16 sm:w-12"
+                className="w-20 sm:w-12"
               >
                 <path
                   strokeLinecap="round"

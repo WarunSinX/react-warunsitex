@@ -6,6 +6,14 @@
   .w-a {
     width: 51%;
   }
+  .pro-size {
+    height: 18rem;
+    width: 18rem;
+  }
+  .pro-sm {
+    height: 16rem;
+    width: 16rem;
+  }
 }
 
 .theme-dark {
@@ -32,9 +40,4 @@ body {
   left: 15px;
   top: 15px;
   z-index: -1;
-}
-
-.pro-size {
-  height: 18rem;
-  width: 18rem;
 }
