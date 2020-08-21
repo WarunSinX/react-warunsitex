@@ -14,7 +14,9 @@ const Contact = () => {
         <div className="mx-5 border-t border-secondary-text w-full" />
         <p className="text-lg">Contact</p>
       </div>
-      <p className="mt-5 sm:text-4xl text-2xl">What's Next? Say Hello!</p>
+      <p className="mt-5 sm:text-4xl text-2xl tracking-tighter sm:tracking-normal">
+        What's Next? Say Hello!
+      </p>
       <div className="md:text-base text-sm sm:px-0 px-10 text-center text-secondary-text sm:my-12 my-8">
         <p>
           Thank you for visiting my personal website, Please feel free to
