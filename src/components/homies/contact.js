@@ -30,7 +30,7 @@ const Contact = () => {
           asking me to fix a computer !
         </p>
       </div>
-      <p className="border border-accent p-3 rounded cursor-pointer">
+      <p className="border border-accent p-3 rounded cursor-pointer mb-10">
         Get In Touch
       </p>
       <p className="mb-10 mt-auto text-secondary-text text-center text-xs">
