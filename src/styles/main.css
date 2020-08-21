@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@responsive {
+  .w-a {
+    width: 51%;
+  }
+}
+
 .theme-dark {
   --primary: #121117;
   --text-main: #eaeaea;

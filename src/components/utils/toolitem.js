@@ -2,12 +2,12 @@ import React from "react"
 
 const ToolItem = ({ item }) => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center mr-4 mb-2">
       <svg
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        className="w-5 text-accent mr-1"
+        className="w-5 text-accent"
       >
         <path
           strokeLinecap="round"
