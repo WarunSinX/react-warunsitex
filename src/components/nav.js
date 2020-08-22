@@ -15,13 +15,14 @@ const Nav = () => {
           }}
         >
           <p className="text-xl text-accent">
-            WarunSiteX{" "}
+            WarunSiteX
+            {/* WarunSiteX{" "}
             <span className="text-main-text">
               <span className="inline sm:hidden">SM</span>
               <span className="hidden sm:inline md:hidden">MD</span>
               <span className="hidden md:inline lg:hidden">LG</span>
               <span className="hidden lg:inline xl:hidden">XL</span>
-            </span>
+            </span> */}
           </p>
         </div>
         <ul className="sm:flex hidden">
