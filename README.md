@@ -10,8 +10,7 @@ Just a simple portfolio website of myself developed with ReactJs & GatsbyJS.
 
 ## Todo List :
 
-- Make responsive
 - Add animation
 - Add theme switch
-- Start Home/theList-Section
+- Add work section
 - Huge Code Refactoring
