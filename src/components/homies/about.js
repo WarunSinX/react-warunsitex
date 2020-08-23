@@ -9,12 +9,7 @@ const About = () => {
       id="about"
       className="min-h-screen flex items-center justify-around pt-20 pb-12 flex-col w-full"
     >
-      <div
-        className="flex items-center w-3/4 self-center lg:self-end lg:pr-12"
-        data-sal="slide-right"
-        data-sal-delay="300"
-        data-sal-duration="500"
-      >
+      <div className="flex items-center w-3/4 self-center lg:self-end lg:pr-12">
         <p className="text-accent text-lg">0001</p>
         <div className="mx-5 border-t border-secondary-text w-full hidden sm:block" />
         <svg

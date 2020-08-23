@@ -14,11 +14,7 @@ const Nav = () => {
             scrollTo("#hero")
           }}
         >
-          <p
-            className="text-xl text-accent"
-            data-sal="slide-right"
-            data-sal-duration="900"
-          >
+          <p className="text-xl text-accent">
             WarunSiteX
             {/* WarunSiteX{" "}
             <span className="text-main-text">
@@ -30,11 +26,7 @@ const Nav = () => {
           </p>
         </div>
         <ul className="sm:flex hidden">
-          <li
-            data-sal="slide-left"
-            data-sal-delay="300"
-            data-sal-duration="900"
-          >
+          <li>
             <p
               onClick={() => {
                 scrollTo("#about")
@@ -44,11 +36,7 @@ const Nav = () => {
               <span className="text-accent mr-1 text-sm">01</span>About
             </p>
           </li>
-          <li
-            data-sal="slide-left"
-            data-sal-delay="500"
-            data-sal-duration="900"
-          >
+          <li>
             <p
               onClick={() => scrollTo("#contact")}
               className="text-secondary-text hover:text-main-text cursor-pointer"
