@@ -10,8 +10,8 @@ const Hero = () => {
       <div>
         <p
           className="text-sm sm:text-base text-accent"
-          data-sal="slide-down"
-          data-sal-delay="1000"
+          data-sal="zoom-out"
+          data-sal-delay="700"
           data-sal-duration="1500"
         >
           Hello there, my name is
@@ -19,7 +19,7 @@ const Hero = () => {
         <p
           className="text-4xl md:text-5xl lg:text-6xl text-main-text font-bold leading-tight"
           data-sal="slide-right"
-          data-sal-delay="1000"
+          data-sal-delay="800"
           data-sal-duration="800"
         >
           Warun Singhal
@@ -27,13 +27,13 @@ const Hero = () => {
         <p
           className="text-4xl md:text-5xl lg:text-6xl text-secondary-text mod-let-space leading-none"
           data-sal="slide-left"
-          data-sal-delay="1000"
+          data-sal-delay="800"
           data-sal-duration="800"
         >
           I convert coffee into code
         </p>
         <div className="text-sm sm:text-base my-16 text-secondary-text">
-          <p data-sal="zoom-in" data-sal-delay="1000" data-sal-duration="900">
+          <p data-sal="zoom-in" data-sal-delay="900" data-sal-duration="900">
             I'm a second year engineering student and also a Full-Stack Dev,{" "}
             <br className="md:block hidden" />
             Mainly use JavaScript and various web technologies シ

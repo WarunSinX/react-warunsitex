@@ -13,11 +13,21 @@ const Layout = ({ children }) => {
       <Nav />
       <div className="flex">
         <div className="xl:flex flex-none relative justify-center w-32 hidden">
-          <div className="border-l-2 border-accent fixed bottom-0 h-40" />
+          <div
+            className="border-l-2 border-accent fixed bottom-0 h-40"
+            data-sal="slide-down"
+            data-sal-delay="1000"
+            data-sal-duration="1500"
+          />
         </div>
         <div className="flex-auto">{children}</div>
         <div className="xl:flex flex-none relative justify-center w-32 hidden">
-          <div className="border-l-2 border-accent fixed bottom-0 h-40" />
+          <div
+            className="border-l-2 border-accent fixed bottom-0 h-40"
+            data-sal="slide-down"
+            data-sal-delay="1000"
+            data-sal-duration="1500"
+          />
         </div>
       </div>
     </>
