@@ -47,7 +47,7 @@ const Contact = () => {
         className="border border-accent p-3 rounded cursor-pointer mb-10"
         data-sal="zoom-in"
         data-sal-delay="1000"
-        data-sal-duration="2000"
+        data-sal-duration="1500"
       >
         <a href="mailto:warunsitex@gmail.com">Get In Touch</a>
       </p>
