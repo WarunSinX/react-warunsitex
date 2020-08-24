@@ -14,7 +14,12 @@ const Nav = () => {
             scrollTo("#hero")
           }}
         >
-          <p className="text-xl text-accent">
+          <p
+            className="text-xl text-accent"
+            data-sal="slide-right"
+            data-sal-delay="500"
+            data-sal-duration="1200"
+          >
             WarunSiteX
             {/* WarunSiteX{" "}
             <span className="text-main-text">
@@ -32,6 +37,9 @@ const Nav = () => {
                 scrollTo("#about")
               }}
               className="text-secondary-text cursor-pointer mr-8 hover:text-main-text"
+              data-sal="slide-left"
+              data-sal-delay="600"
+              data-sal-duration="1500"
             >
               <span className="text-accent mr-1 text-sm">01</span>About
             </p>
@@ -40,6 +48,9 @@ const Nav = () => {
             <p
               onClick={() => scrollTo("#contact")}
               className="text-secondary-text hover:text-main-text cursor-pointer"
+              data-sal="slide-left"
+              data-sal-delay="700"
+              data-sal-duration="1500"
             >
               <span className="text-accent mr-1 text-sm">10</span>Contact
             </p>

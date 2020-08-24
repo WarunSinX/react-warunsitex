@@ -9,7 +9,12 @@ const About = () => {
       id="about"
       className="min-h-screen flex items-center justify-around pt-20 pb-12 flex-col w-full"
     >
-      <div className="flex items-center w-3/4 self-center lg:self-end lg:pr-12">
+      <div
+        className="flex items-center w-3/4 self-center lg:self-end lg:pr-12"
+        data-sal="slide-right"
+        data-sal-delay="200"
+        data-sal-duration="1200"
+      >
         <p className="text-accent text-lg">0001</p>
         <div className="mx-5 border-t border-secondary-text w-full hidden sm:block" />
         <svg
@@ -35,12 +40,25 @@ const About = () => {
               className="rounded pro-sm sm:pro-size"
               src={proImg}
               alt="profileImage"
+              data-sal="zoom-in"
+              data-sal-delay="500"
+              data-sal-duration="1000"
             />
-            <div className="ml-2 mt-2 border-4 border-accent pro-sm sm:pro-size pro-frame rounded" />
+            <div
+              className="ml-2 mt-2 border-4 border-accent pro-sm sm:pro-size pro-frame rounded"
+              data-sal="slide-up"
+              data-sal-delay="1000"
+              data-sal-duration="1500"
+            />
           </div>
         </div>
         <div className="text-center text-sm sm:text-base lg:text-left lg:w-a px-12 lg:px-16 ml-auto">
-          <p className="text-secondary-text mt-5">
+          <p
+            className="text-secondary-text mt-5"
+            data-sal="slide-up"
+            data-sal-delay="200"
+            data-sal-duration="1500"
+          >
             Hello again ! I am Warun, currently in my second year of{" "}
             <br className="hidden" />
             studies towards a bachelor degree in Digital Engineering{" "}
@@ -48,7 +66,12 @@ const About = () => {
             based in Phuket, Thailand. I used to work as a part time
             <br className="hidden" /> freelancer since I was 15 years old.
           </p>
-          <p className="text-secondary-text mt-5">
+          <p
+            className="text-secondary-text mt-5"
+            data-sal="slide-up"
+            data-sal-delay="500"
+            data-sal-duration="1500"
+          >
             I am very passionate about technologies and programming,
             <br className="hidden" /> loved the intersection between code,
             business and design
@@ -58,7 +81,12 @@ const About = () => {
             provide a performant user experiences.
           </p>
           <div>
-            <div className="flex items-center mt-16">
+            <div
+              className="flex items-center mt-16"
+              data-sal="slide-left"
+              data-sal-delay="600"
+              data-sal-duration="1500"
+            >
               <p className="text-main-text flex-none text-lg">Tech & Tools</p>
               <div className="mx-5 border-t border-secondary-text w-full" />
               <svg
@@ -75,7 +103,12 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="mt-5 flex flex-wrap justify-center lg:justify-start">
+            <div
+              className="mt-5 flex flex-wrap justify-center lg:justify-start"
+              data-sal="zoom-out"
+              data-sal-delay="700"
+              data-sal-duration="1100"
+            >
               <ToolItem item="JavaScript" />
               <ToolItem item="React.js" />
               <ToolItem item="Node.js" />
