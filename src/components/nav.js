@@ -18,9 +18,18 @@ const Nav = () => {
             className="text-xl text-accent"
             data-sal="slide-right"
             data-sal-delay="500"
-            data-sal-duration="1200"
+            data-sal-duration="1000"
           >
             WarunSiteX
+            <span
+              data-sal="fade"
+              data-sal-delay="1000"
+              data-sal-duration="1500"
+              n
+              className="text-main-text text-sm ml-1"
+            >
+              beta
+            </span>
             {/* WarunSiteX{" "}
             <span className="text-main-text">
               <span className="inline sm:hidden">SM</span>
