@@ -7,7 +7,7 @@ const Contact = () => {
       className="min-h-screen flex justify-center items-center flex-col"
     >
       <div
-        data-sal="slide-up"
+        data-sal="zoom-in"
         data-sal-delay="300"
         data-sal-duration="1500"
         className="flex items-center w-1/2 sm:w-1/3 md:w-1/4"
@@ -49,7 +49,7 @@ const Contact = () => {
         data-sal-delay="1000"
         data-sal-duration="2000"
       >
-        Get In Touch
+        <a href="mailto:warunsitex@gmail.com">Get In Touch</a>
       </p>
       <p
         className="mb-10 mt-auto text-secondary-text text-center text-xs"
