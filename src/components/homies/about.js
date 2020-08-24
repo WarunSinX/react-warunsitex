@@ -83,7 +83,7 @@ const About = () => {
           <div>
             <div
               className="flex items-center mt-16"
-              data-sal="slide-left"
+              data-sal="zoom-in"
               data-sal-delay="600"
               data-sal-duration="1500"
             >

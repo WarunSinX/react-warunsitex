@@ -26,7 +26,7 @@ const Hero = () => {
         </p>
         <p
           className="text-4xl md:text-5xl lg:text-6xl text-secondary-text mod-let-space leading-none"
-          data-sal="slide-left"
+          data-sal="zoom-in"
           data-sal-delay="200"
           data-sal-duration="1100"
         >
