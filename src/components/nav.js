@@ -26,7 +26,7 @@ const Nav = () => {
               data-sal-delay="1000"
               data-sal-duration="1500"
               n
-              className="text-main-text text-sm ml-1"
+              className="text-secondary-text text-sm ml-1"
             >
               beta
             </span>
