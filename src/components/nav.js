@@ -1,10 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import { useScrollPosition } from "@n8tb1t/use-scroll-position"
 
 const Nav = () => {
+  const [navClass, setNavClass] = useState("")
+  useScrollPosition(({ prevPos, currPos }) => {
+    // if (prevPos.y > currPos.y) {
+    //   console.log("a")
+    // }
+    if (currPos.y === 0) {
+      setNavClass("shadow-none")
+    } else setNavClass("shadow-lg")
+  })
   return (
     <div
-      className="py-5 px-6 md:px-16 bg-primary w-full fixed top-0"
+      className={`py-5 px-6 md:px-16 bg-primary w-full fixed top-0 ${navClass}`}
       style={{ zIndex: "69" }}
     >
       <nav className="flex sm:justify-between items-center">
@@ -21,22 +31,6 @@ const Nav = () => {
             data-sal-duration="1000"
           >
             WarunSiteX
-            <span
-              data-sal="fade"
-              data-sal-delay="1000"
-              data-sal-duration="1500"
-              n
-              className="text-secondary-text text-sm ml-1"
-            >
-              beta
-            </span>
-            {/* WarunSiteX{" "}
-            <span className="text-main-text">
-              <span className="inline sm:hidden">SM</span>
-              <span className="hidden sm:inline md:hidden">MD</span>
-              <span className="hidden md:inline lg:hidden">LG</span>
-              <span className="hidden lg:inline xl:hidden">XL</span>
-            </span> */}
           </p>
         </div>
         <ul className="sm:flex hidden">
