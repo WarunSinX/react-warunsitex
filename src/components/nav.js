@@ -5,9 +5,6 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position"
 const Nav = () => {
   const [navClass, setNavClass] = useState("")
   useScrollPosition(({ prevPos, currPos }) => {
-    // if (prevPos.y > currPos.y) {
-    //   console.log("a")
-    // }
     if (currPos.y === 0) {
       setNavClass("shadow-none")
     } else setNavClass("shadow-lg")
