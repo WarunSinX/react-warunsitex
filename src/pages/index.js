@@ -9,7 +9,7 @@ import Contact from "../components/homies/contact"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="wSiteX" />
     <Hero />
     <About />
     <Contact />
