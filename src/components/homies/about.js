@@ -76,8 +76,7 @@ const About = () => {
             <br className="hidden" /> loved the intersection between code,
             business and design
             <br className="hidden" /> My goal is to build a magnificent Digital
-            Product that
-            <br className="hidden" />
+            Product that <br className="hidden" />
             provide a performant user experiences.
           </p>
           <div>
