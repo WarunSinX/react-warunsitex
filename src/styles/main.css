@@ -23,6 +23,13 @@
   --accent: #fa8231;
 }
 
+.theme-light {
+  --primary: #dcdde1;
+  --text-main: #121117;
+  --text-secondary: #121117;
+  --accent: #121117;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
 }
