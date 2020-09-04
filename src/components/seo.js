@@ -26,7 +26,7 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s`}
+      titleTemplate={`%s | wSiteX`}
       meta={[
         {
           name: `description`,
