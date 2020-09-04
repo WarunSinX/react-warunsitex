@@ -2,15 +2,13 @@
 
 Just a simple portfolio website of myself developed with ReactJs & GatsbyJS.
 
-## Technologies used :
+## Technologies & Tools :
 
 - ReactJs
 - GatsbyJs
 - TailwindCss
 
 ## Todo List :
-- Change Site Favicon
-- Add GeTinTouch at hero
-- Add theme switch
+
 - Add work section
 - Huge Code Refactoring
