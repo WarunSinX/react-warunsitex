@@ -17,17 +17,19 @@
 }
 
 .theme-dark {
-  --primary: #121117;
-  --text-main: #d1d8e0;
-  --text-secondary: #a5b1c2;
-  --accent: #fa8231;
+  --primary: #1d2021;
+  --text-main: #fbf1c7;
+  --text-secondary: #bdae93;
+  --text-item: #d5c4a1;
+  --accent: #fe8019;
 }
 
 .theme-light {
-  --primary: #dcdde1;
-  --text-main: #121117;
-  --text-secondary: #121117;
-  --accent: #121117;
+  --primary: #f9f5d7;
+  --text-main: #282828;
+  --text-secondary: #282828;
+  --text-item: #504945;
+  --accent: #282828;
 }
 
 body {

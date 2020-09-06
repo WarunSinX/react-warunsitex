@@ -7,6 +7,7 @@ module.exports = {
         primary: "var(--primary)",
         "main-text": "var(--text-main)",
         "secondary-text": "var(--text-secondary)",
+        "item-text": "var(--text-item)",
         accent: "var(--accent)",
       },
     },

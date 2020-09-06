@@ -36,7 +36,7 @@ const Nav = ({ toggleTheme, theme }) => {
               onClick={() => {
                 scrollTo("#about")
               }}
-              className="text-secondary-text cursor-pointer mr-8 hover:text-main-text"
+              className="text-item-text cursor-pointer mr-8 hover:text-main-text"
               data-sal="slide-left"
               data-sal-delay="600"
               data-sal-duration="1500"
@@ -47,7 +47,7 @@ const Nav = ({ toggleTheme, theme }) => {
           <li>
             <p
               onClick={() => scrollTo("#contact")}
-              className="text-secondary-text hover:text-main-text cursor-pointer"
+              className="text-item-text hover:text-main-text cursor-pointer"
               data-sal="slide-left"
               data-sal-delay="700"
               data-sal-duration="1500"
@@ -65,7 +65,7 @@ const Nav = ({ toggleTheme, theme }) => {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="text-main-text cursor-pointer lg:hidden sm:ml-8 ml-auto"
+            className="text-item-text cursor-pointer lg:hidden sm:ml-8 ml-auto hover:text-main-text"
             style={{ width: "2rem" }}
           >
             <path
@@ -80,7 +80,7 @@ const Nav = ({ toggleTheme, theme }) => {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className="text-main-text cursor-pointer lg:hidden sm:ml-8 ml-auto"
+            className="text-item-text cursor-pointer lg:hidden sm:ml-8 ml-auto hover:text-main-text"
             style={{ width: "2rem" }}
             onClick={toggleTheme}
           >

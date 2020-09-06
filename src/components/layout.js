@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="text-main-text mb-3 cursor-pointer"
+                  className="text-item-text mb-3 cursor-pointer hover:text-main-text"
                   style={{ width: "2.4rem" }}
                 >
                   <path
@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="text-main-text mb-3 cursor-pointer"
+                  className="text-item-text mb-3 cursor-pointer hover:text-main-text"
                   style={{ width: "2.2rem" }}
                   onClick={toggleTheme}
                 >
