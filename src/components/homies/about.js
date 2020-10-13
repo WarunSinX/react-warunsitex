@@ -1,6 +1,6 @@
 import React from "react"
 
-import proImg from "../../images/pro.jpg"
+import proImg from "../../images/prox.jpg"
 import ToolItem from "../utils/toolitem"
 
 const About = () => {
