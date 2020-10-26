@@ -116,12 +116,10 @@ const About = () => {
               <ToolItem item="Gatsby.js" />
               <ToolItem item="SSH" />
               <ToolItem item="Vim" />
-              <ToolItem item="TailwindCss" />
               <ToolItem item="Java" />
               <ToolItem item="C/C++" />
               <ToolItem item="Python" />
               <ToolItem item="GraphQL" />
-              <ToolItem item="ReactNative" />
               <ToolItem item="SCSS" />
             </div>
           </div>
