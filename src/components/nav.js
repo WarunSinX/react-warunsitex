@@ -1,14 +1,14 @@
-import React, { useState } from "react"
-import scrollTo from "gatsby-plugin-smoothscroll"
-import { useScrollPosition } from "@n8tb1t/use-scroll-position"
+import React, { useState } from "react";
+import scrollTo from "gatsby-plugin-smoothscroll";
+import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 
 const Nav = ({ toggleTheme, theme }) => {
-  const [navClass, setNavClass] = useState("")
+  const [navClass, setNavClass] = useState("");
   useScrollPosition(({ currPos }) => {
     if (currPos.y === 0) {
-      setNavClass("shadow-none")
-    } else setNavClass("shadow-lg")
-  })
+      setNavClass("shadow-none");
+    } else setNavClass("shadow-lg");
+  });
   return (
     <div
       className={`py-5 px-6 md:px-16 bg-primary w-full fixed top-0 ${navClass}`}
@@ -18,7 +18,7 @@ const Nav = ({ toggleTheme, theme }) => {
         <div
           className="cursor-pointer"
           onClick={() => {
-            scrollTo("#hero")
+            scrollTo("#hero");
           }}
         >
           <p
@@ -34,7 +34,7 @@ const Nav = ({ toggleTheme, theme }) => {
           <li>
             <p
               onClick={() => {
-                scrollTo("#about")
+                scrollTo("#about");
               }}
               className="text-item-text cursor-pointer mr-8 hover:text-main-text"
               data-sal="slide-left"
@@ -94,7 +94,7 @@ const Nav = ({ toggleTheme, theme }) => {
         )}
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

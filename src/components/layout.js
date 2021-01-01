@@ -1,16 +1,16 @@
-import React, { useState } from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
 
-import Nav from "./nav"
+import Nav from "./nav";
 
 const Layout = ({ children }) => {
-  const [theme, setTheme] = useState("theme-dark")
+  const [theme, setTheme] = useState("theme-dark");
   const toggleTheme = () => {
-    if (theme == "theme-dark") {
-      setTheme("theme-light")
-    } else setTheme("theme-dark")
-  }
+    if (theme === "theme-dark") {
+      setTheme("theme-light");
+    } else setTheme("theme-dark");
+  };
   return (
     <>
       <Helmet>
@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
         <div className="lg:flex flex-initial relative justify-center w-56 hidden">
           <div className="fixed bottom-0">
             <div className="flex flex-col items-center">
-              {theme == "theme-dark" ? (
+              {theme === "theme-dark" ? (
                 <svg
                   data-sal="slide-down"
                   data-sal-delay="800"
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="text-item-text mb-3 cursor-pointer hover:text-main-text"
+                  className="text-item-text mb-3 cursor-pointer hover:text-main-text animate-spin-slow"
                   style={{ width: "2.4rem" }}
                 >
                   <path
@@ -80,11 +80,11 @@ const Layout = ({ children }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

@@ -1,5 +1,5 @@
-import React from "react"
-import scrollTo from "gatsby-plugin-smoothscroll"
+import React from "react";
+import scrollTo from "gatsby-plugin-smoothscroll";
 
 const Hero = () => {
   return (
@@ -40,7 +40,7 @@ const Hero = () => {
           </p>
         </div>
         <button
-          className="rounded py-3 px-5 border border-accent outline-none"
+          className="rounded py-3 px-5 border border-accent outline-none animate-bounce"
           onClick={() => scrollTo("#about")}
           data-sal="zoom-in"
           data-sal-delay="200"
@@ -50,7 +50,7 @@ const Hero = () => {
         </button>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

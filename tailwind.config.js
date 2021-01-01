@@ -3,6 +3,9 @@ module.exports = {
   important: true,
   theme: {
     extend: {
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+      },
       colors: {
         primary: "var(--primary)",
         "main-text": "var(--text-main)",
@@ -14,4 +17,4 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-}
+};
