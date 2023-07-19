@@ -22,7 +22,7 @@ const Nav = ({ toggleTheme, theme }) => {
           }}
         >
           <p
-            className="text-4xl text-accent"
+            className="text-xl text-accent"
             data-sal="slide-right"
             data-sal-delay="500"
             data-sal-duration="1000"
