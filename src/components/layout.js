@@ -35,9 +35,9 @@ const Layout = ({ children }) => {
             <div className="flex flex-col items-center">
               {theme === "theme-dark" ? (
                 <svg
-                  data-sal="slide-down"
-                  data-sal-delay="800"
-                  data-sal-duration="1200"
+                  // data-sal="slide-down"
+                  // data-sal-delay="800"
+                  // data-sal-duration="1200"
                   onClick={toggleTheme}
                   fill="none"
                   viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="text-item-text mb-3 cursor-pointer hover:text-main-text"
+                  className="text-item-text mb-3 cursor-pointer hover:text-main-text animate-pulse"
                   style={{ width: "2.2rem" }}
                   onClick={toggleTheme}
                 >
