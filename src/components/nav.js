@@ -22,12 +22,12 @@ const Nav = ({ toggleTheme, theme }) => {
           }}
         >
           <p
-            className="text-xl text-accent"
+            className="text-4xl text-accent"
             data-sal="slide-right"
             data-sal-delay="500"
             data-sal-duration="1000"
           >
-            WarunSiteX
+            ▲
           </p>
         </div>
         <ul className="sm:flex hidden ml-auto">
