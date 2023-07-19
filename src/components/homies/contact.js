@@ -39,8 +39,7 @@ const Contact = () => {
           data-sal-delay="1000"
           data-sal-duration="1500"
         >
-          <span className="text-accent">P.S.</span> I am a programmer stop
-          asking me to fix a computer !
+          <span className="text-accent">P.S.</span> Please don't spam me :(
         </p>
       </div>
       <p

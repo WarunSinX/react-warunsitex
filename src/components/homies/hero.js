@@ -30,13 +30,13 @@ const Hero = () => {
           data-sal-delay="200"
           data-sal-duration="1100"
         >
-          I convert coffee into code
+          I convert idea into code
         </p>
         <div className="text-sm sm:text-base my-16 text-secondary-text">
           <p data-sal="zoom-in" data-sal-delay="200" data-sal-duration="1300">
-            I'm a second year engineering student and also a Full-Stack Dev,{" "}
+          I'm a software engineer living in Phuket, Thailand.{" "}
             <br className="md:block hidden" />
-            Mainly use JavaScript and various web technologies シ
+            Mainly use TypeScript and various web technologies シ
           </p>
         </div>
         <button

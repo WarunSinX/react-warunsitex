@@ -53,7 +53,7 @@ const About = () => {
           </div>
         </div>
         <div className="text-center text-sm sm:text-base lg:text-left lg:w-a px-12 lg:px-16 ml-auto">
-          <p
+          {/* <p
             className="text-secondary-text mt-5"
             data-sal="slide-up"
             data-sal-delay="200"
@@ -65,7 +65,7 @@ const About = () => {
             <br className="hidden" />
             based in Phuket, Thailand. I used to work as a part time
             <br className="hidden" /> freelancer since I was 15 years old.
-          </p>
+          </p> */}
           <p
             className="text-secondary-text mt-5"
             data-sal="slide-up"
@@ -108,19 +108,19 @@ const About = () => {
               data-sal-delay="700"
               data-sal-duration="1100"
             >
-              <ToolItem item="JavaScript" />
+              <ToolItem item="TypeScript" />
               <ToolItem item="React.js" />
-              <ToolItem item="Node.js" />
-              <ToolItem item="Vue.js" />
+              <ToolItem item="NestJS" />
+              <ToolItem item="Solidity" />
               <ToolItem item="Git" />
               <ToolItem item="Gatsby.js" />
               <ToolItem item="SSH" />
               <ToolItem item="Vim" />
-              <ToolItem item="Java" />
-              <ToolItem item="C/C++" />
-              <ToolItem item="Python" />
+              <ToolItem item="MySQL" />
+              <ToolItem item="MongoDB" />
+              <ToolItem item="TypeORM" />
               <ToolItem item="GraphQL" />
-              <ToolItem item="SCSS" />
+              <ToolItem item="TailwindCSS" />
             </div>
           </div>
         </div>
