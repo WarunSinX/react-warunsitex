@@ -48,7 +48,7 @@ const Contact = () => {
         data-sal-delay="1000"
         data-sal-duration="1500"
       >
-        <a href="mailto:warunsitex@gmail.com">Get In Touch</a>
+        <a href="mailto:warunsinx@gmail.com">Get In Touch</a>
       </p>
       <p
         className="mb-10 mt-auto text-secondary-text text-center text-xs"
