@@ -34,9 +34,9 @@ const Hero = () => {
         </p>
         <div className="text-sm sm:text-base my-16 text-secondary-text">
           <p data-sal="zoom-in" data-sal-delay="200" data-sal-duration="1300">
-          I'm a software engineer living in Phuket, Thailand.{" "}
+          I'm a software developer living in Phuket, Thailand.{" "}
             <br className="md:block hidden" />
-            Mainly use TypeScript and various web technologies シ
+            Mainly use TypeScript with various web technologies シ
           </p>
         </div>
         <button
