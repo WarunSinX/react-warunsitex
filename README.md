@@ -2,7 +2,7 @@
 
 Just a simple portfolio website of myself developed with ReactJs & GatsbyJS.
 
-Demo : [warun.me](https://warun.me)
+Demo : [warun.me](https://0xwa.run)
 
 ## Technologies & Tools :
 
