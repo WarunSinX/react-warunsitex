@@ -1,4 +1,4 @@
-## Perosnal Website Project : WarunSiteX
+## Perosnal Website Project: WarunSiteX
 
 Just a simple portfolio website about myself, developed using ReactJS and GatsbyJS.
 
