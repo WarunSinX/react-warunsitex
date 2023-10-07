@@ -1,16 +1,16 @@
 ## Perosnal Website Project : WarunSiteX
 
-Just a simple portfolio website of myself developed with ReactJs & GatsbyJS.
+Just a simple portfolio website about myself, developed using ReactJS and GatsbyJS.
 
-Demo : [warun.me](https://0xwa.run)
+Demo : [0xwa.run](https://0xwa.run)
 
 ## Technologies & Tools :
 
 - ReactJs
 - GatsbyJs
-- TailwindCss
+- TailwindCSS
 
 ## Todo List :
 
 - Add work section
-- Huge Code Refactoring
+- Huge code refactor
